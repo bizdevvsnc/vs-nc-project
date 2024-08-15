@@ -1,0 +1,22 @@
+.carouselImg{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px #6774c1; 
+    display: flex;
+}
+.card{
+    padding: 20px;
+  }
+  /* RESPONSIVE DESIGN */
+
+@media all and (max-width:1440px){
+    
+    .carouselImg{
+        width: 280px;
+        height: 280px;
+        box-shadow: 0 0 10px 10px #6774c1;
+    } 
+    .card{
+        padding: 20px;
+      }
+}

@@ -1,0 +1,113 @@
+.bigContainerNetwork{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative; 
+}
+.bigContainerNetwork::after {
+    content: ""; 
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 50%;
+    border-bottom: 8px solid #2E3D9D; 
+    height: 0; 
+  }
+.serviceTitle{
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 900px;
+}
+.iconAndTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textAndImageNetwork{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 260px;
+    margin-right: 260px;
+    align-items: center;
+}
+.serviceName{
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style-type: none;
+padding-left: 0;
+}
+.textNetwork{
+    width: 700px;
+}
+
+.networkImg{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20px 15px #6774c1;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media all and (max-width:1440px){
+    .bigContainerNetwork{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .bigContainerNetwork::after {
+        border-bottom: 4px solid #2E3D9D; 
+      }
+    .serviceTitle{
+    font-size: 20px;
+    width: 900px;
+    }
+    .textAndImageNetwork{
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .serviceName{
+    font-size: 20px;
+    }
+    .textNetwork{
+        width: 450px;
+    }
+    
+    .networkImg{
+        width: 280px;
+        height: 280px;
+        box-shadow: 0 0 15px 10px #6774c1;
+    }
+    
+}
+@media all and (max-width:1280px){
+
+}
+@media all and (max-width:1024px){
+    .textAndImageNetwork{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media all and (max-width:820px){
+    .textNetwork{
+        width: auto;
+    }
+}
+@media all and (max-width:650px){
+    .textAndImageNetwork{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .textAndImageNetwork{
+        display: flex;
+        flex-direction: column;
+    }
+}

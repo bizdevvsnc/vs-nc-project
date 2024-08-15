@@ -1,0 +1,125 @@
+.bigContainerDrilling{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.serviceTitle{
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 900px;
+}
+.iconAndTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textAndImageDrilling{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 260px;
+    margin-right: 260px;
+    align-items: center;
+}
+.serviceName{
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style-type: none;
+}
+.textDrilling{
+    width: 700px;
+} 
+
+.flyersMainContainer{
+    display: flex;
+    justify-content: center;
+    width: 415px;
+    }
+    .flyersContainer{
+      width:545px;
+    }
+
+    /* .card{
+        padding: 20px;
+      } */
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media all and (max-width:1440px){
+    .bigContainerDrilling{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .bigContainerDrilling::after {
+        border-bottom: 4px solid #2E3D9D; 
+      }
+    .serviceTitle{
+    font-size: 20px;
+    width: 900px;
+    }
+    .textAndImageDrilling{
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .serviceName{
+    font-size: 20px;
+    }
+    .textWireless{
+        width: 450px;
+    }
+
+.flyersMainContainer{
+    width: 250px;
+    } 
+    .flyersContainer{
+        width:420px;
+      }
+}
+@media all and (max-width:1024px){
+    .textAndImageDrilling{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+@media all and (max-width:900px){
+    .textDrilling{
+        width: 300px;
+    }
+}
+@media all and (max-width:820px){
+    .textDrilling{
+        width: 300px;
+    } 
+}
+@media all and (max-width:650px){
+    .textAndImageDrilling{
+flex-direction: column;
+margin-left: 50px;
+margin-right: 50px;
+    }
+}
+@media all and (max-width:360px){
+    .textDrilling{
+        width: auto;
+    } 
+    .textAndImageDrilling{
+        margin-left: 20px;
+        margin-right: 20px;
+            }
+    .serviceTitle{
+        width: auto;
+        }
+        .flyersMainContainer{
+            width: 320px;
+            }
+            .flyersContainer{
+              width:320px;
+            }
+}

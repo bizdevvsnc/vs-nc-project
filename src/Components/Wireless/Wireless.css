@@ -1,0 +1,192 @@
+.bigContainerWireless{
+    background-color: #E2E4F2;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    position: relative; 
+}
+.bigContainerWireless::after {
+    content: ""; 
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    width: 50%;
+    border-bottom: 8px solid #2E3D9D; 
+    height: 0; 
+  }
+.serviceTitle{
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 900px;
+}
+.iconAndTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textAndImageWireless{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.serviceName{
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style-type: none;
+}
+.textWireless{
+    width: 700px;
+}
+
+.liLine{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 14px;
+}
+.serviceImg{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20px 15px #6774c1;
+    display: flex;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media all and (max-width:1440px){
+    .bigContainerWireless{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .bigContainerWireless::after {
+        border-bottom: 4px solid #2E3D9D; 
+      }
+    .serviceTitle{
+    font-size: 20px;
+    width: 900px;
+    }
+    .textAndImageWireless{
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    .serviceName{
+    font-size: 20px;
+    }
+    .textWireless{
+        width: 450px;
+    }
+    
+    .liLine{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 8px;
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+    .liLine::before {
+        top: 13px; 
+        height: 1px; 
+        width: 12px; 
+      }
+    
+    .serviceImg{
+        width: 280px;
+        height: 280px;
+        box-shadow: 0 0 15px 10px #6774c1;
+    }
+    
+}
+@media all and (max-width:1024px){
+    .textAndImageWireless{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media all and (max-width:900px){
+    .serviceTitle{
+        width: auto;
+        }
+        .textWireless{
+            width: 300px;
+        }
+    }
+@media all and (max-width:820px){
+    .serviceTitle{
+        font-size: 25px;
+        width: 590px;
+        font-weight: 500;
+        }
+        .serviceName{
+            font-size: 20px;
+            font-weight: 400;
+            }
+            .textWireless{
+                width: 300px;
+            }
+            
+            .liLine{
+                font-size: 18px;
+            }
+            .serviceImg{
+                width: 300px;
+                height: 300px;
+            }
+}
+@media all and (max-width:650px){
+    .textAndImageWireless{
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .icon{
+        width: 45px;
+    }
+    .serviceTitle{
+        font-size: 20px;
+        width: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-weight: 500;
+        }
+        .serviceName{
+            font-size: 20px;
+            font-weight: 400;
+            }
+            .textWireless{
+                width: auto;
+            }
+            .liLine{
+                font-size: 18px;
+            }
+            .flyersContainer{
+                width: 380px;
+                margin-right: 50px;
+            }
+            .slick-dots{
+                margin-left: 20px;
+            }
+}
+@media all and (max-width:360px){
+    .flyersContainer{
+        width: 300px;
+        margin-right: 30px;
+    }
+    .carouselImg{
+        width: 200px;
+        height: 200px;
+    }
+    .serviceImg{
+        width: 200px;
+        height: 200px;
+        box-shadow: 0 0 10px 5px #6774c1;
+    }
+}

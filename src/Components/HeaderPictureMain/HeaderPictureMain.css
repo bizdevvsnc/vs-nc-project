@@ -1,0 +1,21 @@
+.headerPictureMain {
+    background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 50% 100% no-repeat, url('../photos/banner.png');
+    background-size: cover, cover;
+    background-position: left, center;
+    height: 900px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -1;
+  }
+  
+  @media (max-width: 650px) {
+    .headerPictureMain {
+      background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 50% 100% no-repeat, url('../photos/banner-small.png');
+      background-size: cover, cover;
+      background-position: left, center;
+    }
+  }
+
+  

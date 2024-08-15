@@ -1,0 +1,76 @@
+.redTitle{
+color: rgba(220, 61, 53, 0.30);
+font-size: 50px;
+padding-top: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 260px;
+}
+.containerWithCompanies{
+width: auto;
+height: 200px;
+background-color: #E2E4F2;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+
+/* RESPONSIVE DESIGN */
+@media all and (max-width:1750px){
+    .redTitle{
+        font-size: 35px;
+        }
+}
+
+@media all and (max-width:1440px){
+    .redTitle{
+        padding-top: 40px;
+        font-style: normal;
+        margin-left: 160px;
+        }
+        .containerWithCompanies{
+        height: 100px;
+        }
+}
+@media all and (max-width:1280px){
+
+}
+@media all and (max-width:1024px){
+    .redTitle{
+        font-size: 30px;
+        margin-left: 100px;
+        }
+
+}
+@media all and (max-width:820px){
+    .redTitle{
+        font-size: 25px;
+        font-weight: 600;
+        }
+
+}
+@media all and (max-width:650px){
+    .redTitle{
+        font-size: 25px;
+        margin-left: 50px;
+        font-weight: 500;
+    }
+    .containerWithCompanies{
+        height: 74px;
+        }
+}
+
+@media all and (max-width:390px){
+    .redTitle{
+        margin-left: 20px;
+    }
+    .containerWithCompanies{
+        height: auto;
+        padding: 10px 20px;
+        }
+        .effect{
+            padding: 10px;
+        }
+}

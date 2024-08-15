@@ -1,0 +1,97 @@
+.redTitleVision{
+margin-top: 200px;
+color: rgba(220, 61, 53, 0.30);
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.containerParagVision{
+    font-size: 35px;
+    width: 900px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 260px;
+    padding-bottom: 80px;
+}
+.paragVision{
+    max-width: 100%;
+    text-align: right;
+}
+
+.effectParticles{
+    position: absolute;
+}
+.blueParticles{
+    width: 950px;
+    opacity: 50%;
+}
+
+/* RESPONSIVE DESIGN */
+@media all and (max-width:1750px){
+        .redTitleVision{
+            font-size: 35px;
+            }
+}
+
+@media all and (max-width:1440px){
+     .redTitleVision{
+        margin-top: 130px;
+        font-size: 35px;
+        }
+        .containerParagVision{
+            font-size: 25px;
+            width: 680px;
+            font-weight: 400;
+            margin-right: 160px;
+            padding-bottom: 30px;
+        }
+        .paragVision{
+            max-width: 100%;
+            text-align: right;
+        }
+        .blueParticles{
+    width: 650px;
+        }
+}
+@media all and (max-width:1024px){
+    .redTitleVision{
+        margin-top: 100px;
+        font-size: 30px;
+        }
+}
+@media all and (max-width:820px){
+    .redTitleVision{
+        font-size: 25px;
+        }
+        .blueParticles{
+            width: 350px;
+                }
+                .containerParagVision{
+                    font-size: 20px;
+                    width: 400px;
+                }
+
+}
+@media all and (max-width:650px){
+    .containerParagVision{
+        font-size: 16px;
+        margin-right: 50px;
+        width: 300px;
+    }
+    .redTitleVision{
+        font-weight: 500;
+        }
+}
+@media all and (max-width:360px){
+
+    .containerParagVision{
+        margin-right: 20px;
+        width: 260px;
+    }
+    .blueParticles{
+        width: 300px;
+        margin-top: 50px;
+    }
+}
