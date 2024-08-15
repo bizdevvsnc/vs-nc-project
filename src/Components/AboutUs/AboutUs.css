@@ -12,7 +12,7 @@ margin-right: 20px;
 .lineAboutUs{
     flex-grow: 1;
     height: 8px;
-    background-color: rgba(220, 61, 53, 0.30);
+    background-color: #DC3D35;
     max-width: 100%;
     margin-right: 260px;
 }
@@ -95,13 +95,13 @@ line-height: 1.6;
 .linebtnRight{
     flex-grow: 1;
     height: 8px;
-    background-color: rgba(220, 61, 53, 0.30);
+    background-color: #DC3D35;
     max-width: 100%;
 }
 .linebtnLeft{
     flex-grow: 1;
     height: 8px;
-    background-color: rgba(220, 61, 53, 0.30);
+    background-color: #DC3D35;
     max-width: 100%;
 }
 .visible820{
@@ -150,6 +150,7 @@ line-height: 1.6;
     }
     .titleParag{
     margin-left: 160px;
+    font-size: 35px;
     }
     .hiddenText{
     font-size: 20px;
@@ -246,6 +247,16 @@ line-height: 1.6;
     .btnSecondary{
       width: 180px;
   }
+  .hiddenText{
+    display: none;
+}
+.visible820{
+    display: block;
+}
+.aboutUsPhoto{
+    width: 190px;
+    height: 190px;
+}
   }
 
 @media all and (max-width:820px){
@@ -259,15 +270,16 @@ font-weight: 600;
 .hiddenText{
     display: none;
 }
+.visible820{
+    display: block;
+}
 .text{
 font-size: 18px;
 }
 .textToTheRight{
 font-size: 18px;
 }
-.visible820{
-    display: block;
-}
+
 .aboutUsPhoto{
     width: 160px;
     height: 160px;

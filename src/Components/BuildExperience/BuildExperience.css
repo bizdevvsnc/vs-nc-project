@@ -1,7 +1,8 @@
 .redTitle{
-color: rgba(220, 61, 53, 0.30);
+color: #DC3D35;
 font-size: 50px;
 padding-top: 40px;
+padding-bottom: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -26,6 +27,7 @@ flex-wrap: wrap;
 
 @media all and (max-width:1440px){
     .redTitle{
+        font-size: 35px;
         padding-top: 40px;
         font-style: normal;
         margin-left: 160px;

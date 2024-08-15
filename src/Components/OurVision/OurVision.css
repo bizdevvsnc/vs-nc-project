@@ -1,6 +1,6 @@
 .redTitleVision{
 margin-top: 200px;
-color: rgba(220, 61, 53, 0.30);
+color: #DC3D35;
 font-size: 50px;
 font-style: normal;
 font-weight: 700;
@@ -61,6 +61,11 @@ line-height: normal;
         font-size: 30px;
         }
 }
+@media all and (max-width:900px){
+    .containerParagVision{
+        width: 800px;
+    }
+}
 @media all and (max-width:820px){
     .redTitleVision{
         font-size: 25px;
@@ -70,7 +75,7 @@ line-height: normal;
                 }
                 .containerParagVision{
                     font-size: 20px;
-                    width: 400px;
+                    width: 420px;
                 }
 
 }
