@@ -107,6 +107,9 @@ margin-top: -170px;
         .Three{
             margin-left: 600px;
         }
+        .particlesHeader{
+            width: 800px;
+        }
     
 
 }
@@ -116,9 +119,6 @@ margin-top: -170px;
     }
     .undertext {
         margin-left: 100px;
-    }
-    .particlesHeader{
-        width: 800px;
     }
   }
   @media all and (max-width:1000px){

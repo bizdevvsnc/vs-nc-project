@@ -6,7 +6,7 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+line-height: 0;
 }
 .navTitle:hover{
     text-decoration: underline;
@@ -14,20 +14,25 @@
 }
 .navbar{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 30px;
     margin-left: 40px;
-
 }
 .navbarContainer{
 display: flex;
 /* align-items: center; */
+align-items:flex-end;
 justify-content: space-between;
 margin: 60px 180px;
 }
+.justLogo{
+  display: flex;
+  align-items: last baseline;
+}
 .logoAndTitles{
     display: flex;
-    /* align-items: last baseline; */
+    /* align-items: flex-end; */
+    align-items: last baseline;
 }
 .btn{
     width: 300px;
@@ -111,7 +116,7 @@ a{
     }
     .btn{
         width: 210px;
-        height: 46px;
+        height: 40px;
         font-size: 20px;
         border: 3px solid white;
     }

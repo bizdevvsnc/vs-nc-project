@@ -26,7 +26,9 @@ export const Navbar = () => {
   return (
     <div className="navbarContainer">
       <div className='logoAndTitles'>
+        <div className='justLogo'>
         <img className='logo' src={logo} alt='logo' />
+        </div>
         <nav className="navbar">
           <Link to="about-us" spy={true} smooth={true} offset={50} duration={500}>
             <h1 className="navTitle">ABOUT US</h1>
@@ -39,7 +41,9 @@ export const Navbar = () => {
           </Link>
         </nav>
       </div>
+      <div className='justBtnContainer'>
       <a className='blockbtn emaillink' href="mailto:bizdev@vs-nc.com"><button className="btn"> contact us</button></a>
+      </div>
       <div className="hiddenSidebar">
         <RxHamburgerMenu className="hamIcon mainLinks" onClick={() => setSidebarOpen(true)} />
         <div>
