@@ -1,7 +1,7 @@
 .carouselImg{
     width: 430px;
     height: 430px;
-    box-shadow: 0 0 6px 6px #6774c1; 
+    box-shadow: 0 0 7px 7px #6775c19e;  
     display: flex;
 }
 .card{
@@ -14,7 +14,8 @@
     .carouselImg{
         width: 310px;
         height: 310px;
-        box-shadow: 0 0 6px 6px #6774c1;    } 
+        box-shadow: 0 0 7px 7px #6775c19e;
+    } 
     .card{
         padding: 20px;
       }

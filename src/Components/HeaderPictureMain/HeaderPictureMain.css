@@ -1,7 +1,7 @@
 .headerPictureMain {
-    background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 50% 100% no-repeat, url('../photos/banner.png');
+    background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 100% 100% no-repeat, url('../photos/banner.png');
     background-size: cover, cover;
-    background-position: left, center;
+    background-position: center;
     height: 900px;
     width: 100%;
     top: 0;
