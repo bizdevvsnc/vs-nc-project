@@ -101,14 +101,14 @@ margin-top: -170px;
         }
         
         .One{
-            margin-left: 570px;
+            margin-left: 500px;
         }
         .Two{
-            margin-left: 430px;
+            margin-left: 400px;
         }
         
         .Three{
-            margin-left: 600px;
+            margin-left:570px;
         }
         .particlesHeader{
             width: 800px;
@@ -150,14 +150,14 @@ margin-top: -170px;
     }
     
     .One{
-        margin-left: 330px;
+        margin-left: 200px;
     }
     .Two{
-        margin-left: 200px;
+        margin-left: 230px;
     }
     
     .Three{
-        margin-left: 300px;
+        margin-left: 280px;
     }
     .particlesHeader{
         width: 800px;
@@ -233,22 +233,35 @@ margin-top: -170px;
             width: 340px;
         }
 }
+@media all and (max-width:390px){
+    .title {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .undertext {
+        margin-left: 20px;
+    }
+    .floatingText{
+        text-align: left;
+        margin-left: 20px;
+        }
+        .particlesHeader{
+            width: 300px;
+            margin-top: 240px;
+        }
+}
 @media all and (max-width:360px){
     .headerStyle {
         height:700px;
     }
-    .headerStyle {
-        height:700px;
+    .undertext {
+        margin-left: 20px;
     }
     .title {
         /* font-size: 60px;
         line-height: 0; */
         margin-left: 20px;
         margin-top: 80px;
-    }
-
-    .undertext {
-        margin-left: 20px;
     }
     .floatingText{
     margin-top: 100px;
