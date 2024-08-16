@@ -5,7 +5,7 @@ export const HeaderPictureMain = () => {
     return (
         <div className="headerPictureMain">
         <picture>
-            <source className="headerPic" srcSet="../photos/banner.png" />
+            <source className="headerPic" srcSet="../photos/baner.jpg" />
         </picture>
         </div>
     )
