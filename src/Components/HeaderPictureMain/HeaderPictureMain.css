@@ -1,8 +1,7 @@
 .headerPictureMain {
-    /* background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 100% 100% no-repeat, url('../photos/baner.jpg'); */
-    background:url('../photos/banerRotated.jpg');
-background-size: 100% 100%;
-    background-position: top;
+    background: url('../photos/banerRotatedTwo.jpg');
+    background-size: cover, cover;
+    background-position: right, center;
     height: 900px;
     width: 100%;
     top: 0;
@@ -10,13 +9,21 @@ background-size: 100% 100%;
     position: relative;
     z-index: -1;
   }
+  @media all and (max-width: 890px) {
+    .headerPictureMain {
+        background-position: 80% center;
+        height: 700px;
+    }
+}
+
   
   @media (max-width: 650px) {
     .headerPictureMain {
-      background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 50% 100% no-repeat, url('../photos/banner-small.png');
+      background:linear-gradient(to top, #2e3d9dc8 30%, transparent 75%) 0 / 50% 70% no-repeat,url('../photos/banersmall.jpg');
       background-size: cover, cover;
-      background-position: left, center;
+      background-position: right, center;
+      height: 900px;
     }
   }
-
+  /* linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 50% 100% no-repeat, */
   

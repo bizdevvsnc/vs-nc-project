@@ -52,16 +52,19 @@ margin-top: 50px;
 }
 
 .One{
-    color: #B8BDE0;
+    /* color: #B8BDE0; */
+    color: rgba(255, 255, 255, 0.82);
     margin-left: 730px;
 }
 .Two{
-    color: #9ba4e3;
+    /* color: #9ba4e3; */
+    color: rgba(255, 255, 255, 0.82);
     margin-left: 550px;
 }
 
 .Three{
-    color: #ECEDF7;
+    /* color: #ECEDF7; */
+    color: rgba(255, 255, 255, 0.82);
     margin-left: 800px;
 }
 .test{
@@ -243,28 +246,26 @@ margin-top: -170px;
         height:700px;
     }
     .title {
-        font-size: 60px;
-        line-height: 0;
+        /* font-size: 60px;
+        line-height: 0; */
         margin-left: 20px;
+        margin-top: 80px;
     }
-    .andInc {
-        font-size: 30px;
-    }
+
     .undertext {
-        font-size: 10px;
         margin-left: 20px;
     }
     .floatingText{
     margin-top: 100px;
     font-size: 14px;
-    text-align: right;
-    margin-right: 20px;
+    text-align: left;
+    margin-left: 20px;
     }
     .test{
         margin-top: -120px;
         }
         .particlesHeader{
             width: 300px;
-            margin-top: 160px;
+            margin-top: 200px;
         }
 }
