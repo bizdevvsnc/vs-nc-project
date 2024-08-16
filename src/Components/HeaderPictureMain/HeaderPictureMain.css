@@ -1,7 +1,8 @@
 .headerPictureMain {
-    background:url('../photos/baner.jpg');
-    background-size: cover, cover;
-    background-position: center;
+    /* background: linear-gradient(to right, #2E3D9D 15%, transparent 100%) 0 / 100% 100% no-repeat, url('../photos/baner.jpg'); */
+    background:url('../photos/banerRotated.jpg');
+background-size: 100% 100%;
+    background-position: top;
     height: 900px;
     width: 100%;
     top: 0;
