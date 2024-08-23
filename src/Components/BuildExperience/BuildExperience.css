@@ -64,6 +64,7 @@ flex-wrap: wrap;
         }
 }
 
+
 @media all and (max-width:390px){
     .redTitle{
         margin-left: 20px;

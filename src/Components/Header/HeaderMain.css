@@ -277,3 +277,22 @@ margin-top: -170px;
             margin-top: 200px;
         }
 }
+@media all and (max-width:335px){
+    .undertext {
+        margin-left: 14px;
+    }
+    .title {
+        font-size: 60px;
+    }
+    .andInc {
+        font-size: 30px;
+    }
+    .undertext {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    .floatingText{
+    margin-top: 60px;
+    font-size: 12px;
+    }
+}

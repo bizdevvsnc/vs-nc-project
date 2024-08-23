@@ -89,6 +89,13 @@ line-height: normal;
         font-weight: 500;
         }
 }
+
+@media all and (max-width:390px){
+
+    .containerParagVision{
+        margin-right: 20px;
+    }
+}
 @media all and (max-width:360px){
 
     .containerParagVision{

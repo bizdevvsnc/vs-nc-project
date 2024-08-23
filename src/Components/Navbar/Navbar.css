@@ -168,7 +168,7 @@ a{
         margin: 30px 50px;
         }
 }
-@media all and (max-width:360px){
+@media all and (max-width:390px){
   .navbarContainer{
     margin: 20px 20px;
     }
