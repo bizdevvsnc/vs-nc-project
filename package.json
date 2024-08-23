@@ -1,7 +1,7 @@
 {
   "name": "testforme",
   "version": "0.1.0",
-  "homepage": "https://bizdevvsnc.github.io/vs-nc-project",
+  "homepage": "https://vs-nc.com/",
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.1",
